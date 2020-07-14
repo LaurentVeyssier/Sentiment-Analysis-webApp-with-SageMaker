@@ -6,6 +6,12 @@ The deployed model uses a simple web page where users can submit a review writte
 
 ![](/website/webpage.PNG)
 
+## Instructions
+
+- Open the SageMaker Project.ipynb file.
+- Read and follow the instructions fron the notebook.
+
+
 ## Dependencies ##
 This project assumes some familiarity with SageMaker.
 
