@@ -6,11 +6,14 @@ The deployed model uses a simple web page where users can submit a review writte
 
 ## Dependencies ##
 This project assumes some familiarity with SageMaker.
+
 The model is trained on IMDb movie review dataset. The dataset can be downloaded from the notebook.
+
 It uses Amazon Web Service SageMaker. From step 3 of the notebook, the model is deployed in S3, AWS cloud computing solution, and runs using SageMaker resources.
+
 To run the code, an AWS account will be required.
 
-The notebook uses helper functions which are located in train and serve folders. These include model definitions (model.py), train code (train.py) and test code (predict.py).
+The notebook uses helper functions which are located in train and serve folders. These include model definitions (model.py), train code (train.py) and inference code (predict.py).
 The web app runs using index.html file. 
 
 ## Installation ##
