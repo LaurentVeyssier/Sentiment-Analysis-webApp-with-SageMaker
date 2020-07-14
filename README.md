@@ -13,6 +13,16 @@ To run the code, an AWS account will be required.
 The notebook uses helper functions which are located in train and serve folders. These include model definitions (model.py), train code (train.py) and test code (predict.py).
 The web app runs using index.html file. 
 
+## Installation ##
+To deploy the model, it will be required to set up a Lamba function in SageMaker with the appropriate permission and endpoint connection. The endpoint connection is provided by the following code line in the notebook :
+`predictor.endpoint`
+
+You will have to create an API gateway in SageMaker to trigger the Lambda function.
+
+Finally you will be required to update the API url in the index.html file located in website folder. This will link the web page to the API you have created.
+
+For step-by-step instructions, refer to step 7 (Lambda and API gateway set-up) and step 8 (API url update) in the notebook.
+
 
 ## Project Information: ##
 Contents of the main notebook
