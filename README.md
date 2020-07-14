@@ -4,7 +4,7 @@ This project is the final project of UDACITY's Deep Learning Nanodegree program.
 In this project, I use SageMaker (AWS) to train and deploy a sentiment analysis model in Pytorch.
 The deployed model uses a simple web page where users can submit a review written in plain english. The model predicts whether the review is positive or negative. The prediction is returned to the web page.
 
-![web page](/website/webpage.png)
+![](/website/webpage.PNG)
 
 ## Dependencies ##
 This project assumes some familiarity with SageMaker.
